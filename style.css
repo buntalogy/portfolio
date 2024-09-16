@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 64px 128px;
+    font-family: monospace;
+}
+
+h1 {
+    margin-bottom: -16px;
+}
+
+h2 {
+    margin-bottom: 32px;
+}
+
+.gallery {
+    columns: 4 200px;
+    column-gap: 16px;
+}
+
+.gallery .img-container {
+    margin-bottom: 16px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.gallery .img-container:hover img {
+    transform: scale(1.05);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+}
