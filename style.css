@@ -5,6 +5,11 @@ body {
     font-family: monospace;
 }
 
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
 h1 {
     margin-bottom: -16px;
 }
