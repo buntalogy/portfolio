@@ -31,7 +31,6 @@ const imageUrls = [
     "images/image_30.png",
     "images/image_31.png",
     "images/image_32.png",
-    "images/image_33.png",
     "images/image_34.png",
     "images/image_35.png",
     "images/image_36.png",

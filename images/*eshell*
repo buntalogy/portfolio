@@ -1,0 +1,119 @@
+~/Vault/Code/Bunta/portfolio $ live-server
+Serving "/Users/Bunta/Vault/Code/Bunta/portfolio" at http://127.0.0.1:8080
+Ready for changes
+GET /images/image_45png 404 3.360 ms - 157
+CSS change detected /Users/Bunta/Vault/Code/Bunta/portfolio/style.css
+interrupt: 2
+~/Vault/Code/Bunta/portfolio $ git add .
+~/Vault/Code/Bunta/portfolio $ git commit -m "Decrease padding"
+[main 61a500b] Decrease padding
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+~/Vault/Code/Bunta/portfolio $ git push
+failed to get: -128
+Username for 'https://github.com': interrupt: 2
+~/Vault/Code/Bunta/portfolio $ git remote add origin https://github.com/buntalogy
+error: remote origin already exists.
+~/Vault/Code/Bunta/portfolio $ git push -u origin main
+remote: Permission to buntalogy/portfolio.git denied to themotorgala.
+fatal: unable to access 'https://github.com/buntalogy/portfolio.git/': The requested URL returned error: 403
+~/Vault/Code/Bunta/portfolio $ git push -u origin main
+failed to get: -128
+Username for 'https://github.com': buntalogy
+Password for 'https://buntalogy@github.com': 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
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To https://github.com/buntalogy/portfolio.git
+   f62395c..61a500b  main -> main
+branch 'main' set up to track 'origin/main'.
+~/Vault/Code/Bunta/portfolio $ live-server
+Serving "/Users/Bunta/Vault/Code/Bunta/portfolio" at http://127.0.0.1:8080
+Ready for changes
+GET /images/image_45png 404 3.816 ms - 157
+GET /images/image_45png 404 2.622 ms - 157
+interrupt: 2
+~/Vault/Code/Bunta/portfolio $ git add .
+~/Vault/Code/Bunta/portfolio $ git commit -m "Update images"
+[main c75e963] Update images
+ 1 file changed, 2 deletions(-)
+~/Vault/Code/Bunta/portfolio $ git push -u origin main
+failed to get: -128
+Username for 'https://github.com': buntalogy
+Password for 'https://buntalogy@github.com': Z3WnDARslWmE2f4tt4Vkyvg8dVQWoP3JBro1
+
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/buntalogy/portfolio.git/'
+~/Vault/Code/Bunta/portfolio $ git push -u origin main
+failed to get: -128
+Username for 'https://github.com': buntalogy
+Password for 'https://buntalogy@github.com': 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
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To https://github.com/buntalogy/portfolio.git
+   61a500b..c75e963  main -> main
+branch 'main' set up to track 'origin/main'.
+~/Vault/Code/Bunta/portfolio $ live-server
+Serving "/Users/Bunta/Vault/Code/Bunta/portfolio" at http://127.0.0.1:8080
+Ready for changes
+GET /images/image_45png 404 2.246 ms - 157
+Change detected /Users/Bunta/Vault/Code/Bunta/portfolio/script.js
+GET /favicon.ico 404 0.293 ms - 150
+interrupt: 2
+~/Vault/Code/Bunta/portfolio $ git add .
+~/Vault/Code/Bunta/portfolio $ git commit -m "Update images"
+[main 2c085fd] Update images
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+~/Vault/Code/Bunta/portfolio $ git push -u origin main
+failed to get: -128
+Username for 'https://github.com': buntalogy
+Password for 'https://buntalogy@github.com': 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
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To https://github.com/buntalogy/portfolio.git
+   c75e963..2c085fd  main -> main
+branch 'main' set up to track 'origin/main'.
+~/Vault/Code/Bunta/portfolio $ live-server
+Serving "/Users/Bunta/Vault/Code/Bunta/portfolio" at http://127.0.0.1:8080
+Ready for changes
+interrupt: 2
+~/Vault/Code/Bunta/portfolio $ cd images
+~/Vault/Code/Bunta/portfolio/images $ git add .
+~/Vault/Code/Bunta/portfolio/images $ git commit -m "Update images"
+[main a79d388] Update images
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 images/image_47.png
+ delete mode 100644 images/image_50.png
+~/Vault/Code/Bunta/portfolio/images $ git push -u origin main
+failed to get: -128
+Username for 'https://github.com': buntalogy
+Password for 'https://buntalogy@github.com': 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
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+To https://github.com/buntalogy/portfolio.git
+   2c085fd..a79d388  main -> main
+branch 'main' set up to track 'origin/main'.
+~/Vault/Code/Bunta/portfolio/images $ 
