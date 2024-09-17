@@ -114,16 +114,16 @@ lightbox.addEventListener('click', closeLightbox);
 
 document.addEventListener('keydown', (e) => {
     if (lightbox.style.display === 'flex') {
-        switch(e.key) {
-            case 'Escape':
-                closeLightbox();
-                break;
-            case 'ArrowRight':
-                nextImage();
-                break;
-            case 'ArrowLeft':
-                previousImage();
-                break;
+        switch (e.key) {
+        case 'Escape':
+            closeLightbox();
+            break;
+        case 'ArrowRight':
+            nextImage();
+            break;
+        case 'ArrowLeft':
+            previousImage();
+            break;
         }
     }
 });
